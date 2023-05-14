@@ -1,0 +1,53 @@
+body {
+  font-family: 'Raleway';
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/taipei.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+header h1 {
+  font-size: 96px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+header h2 {
+  font-family: 'Raleway';
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+header h3 {
+  font-family: 'Raleway';
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+header a {
+  color: #272044;
+  font-weight: 700;
+  padding: 16px 32px;
+  background-color: white;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
