@@ -1,5 +1,6 @@
 body {
   font-family: 'Raleway';
+  background-color: rgba(26, 37, 51)
 }
 
 .container {
@@ -40,6 +41,7 @@ header h3 {
   line-height: 36px;
   text-align: center;
   letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 header a {
@@ -50,4 +52,55 @@ header a {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+footer {
+  background-image: linear-gradient(
+    rgba(26, 37, 51, 0.7),
+    rgba(26, 37, 51, 0.7)
+  ),
+  url("../images/nightTaipei.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 125px;
+}
+footer a {
+  color: white;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+}
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
+  line-height: 24px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;;
+}
+
+@media (max-width: 960px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
