@@ -7,7 +7,52 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+.secondary {
+  background-color: #edf0f4;
+  max-width: 100%;
+}
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
 
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-3-columns-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.img-responsive {
+  max-width: 100%;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
+.btn {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 21px;
+  background-color: rgb(50, 67, 90);
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/taipei.jpeg");
@@ -54,6 +99,50 @@ header a {
   text-transform: uppercase;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+main {
+  background: white;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: rgba(26, 37, 51);
+  opacity: .3;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: rgba(26, 37, 51);
+  margin: 0;
+  text-align: center;
+}
+
+main p {
+  color:rgba(26, 37, 51);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: .7;
+}
+
+main li {
+  margin: 15px 0px;
+  text-align: left;
+}
+
 footer {
   background-image: linear-gradient(
     rgba(26, 37, 51, 0.9),
@@ -79,58 +168,6 @@ footer p {
   font-weight: 400;
   margin-right: 20px;
   line-height: 24px;
-}
-main {
-  background: white;
-}
-
-main h2 {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 0;
-  letter-spacing: 5px;
-  color: rgba(26, 37, 51);
-  opacity: .3;
-  text-transform: uppercase;
-}
-
-main h3 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 1.5;
-  color: rgba(26, 37, 51);
-  margin: 0;
-}
-
-main p {
-  color:rgba(26, 37, 51);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  opacity: .7;
-}
-
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px 0;
-}
-
-.grid {
-  display: grid;
-  grid-gap: 64px;
-}
-
-.grid-2-columns {
-  grid-template-columns: 1fr 1fr;
-
-}
-.grid-3-columns-first-narrow {
-  grid-template-columns: 1fr 2fr 2fr;
-}
-.img-responsive {
-  max-width: 100%;
 }
 
 @media (max-width: 960px) {
