@@ -56,14 +56,14 @@ header a {
 
 footer {
   background-image: linear-gradient(
-    rgba(26, 37, 51, 0.7),
-    rgba(26, 37, 51, 0.7)
+    rgba(26, 37, 51, 0.9),
+    rgba(26, 37, 51, 0.9)
   ),
   url("../images/nightTaipei.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 125px;
+  padding: 100px;
 }
 footer a {
   color: white;
@@ -80,10 +80,57 @@ footer p {
   margin-right: 20px;
   line-height: 24px;
 }
+main {
+  background: white;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: rgba(26, 37, 51);
+  opacity: .3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: rgba(26, 37, 51);
+  margin: 0;
+}
+
+main p {
+  color:rgba(26, 37, 51);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: .7;
+}
 
 section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;;
+  grid-gap: 64px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+
+}
+.grid-3-columns-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.img-responsive {
+  max-width: 100%;
 }
 
 @media (max-width: 960px) {
