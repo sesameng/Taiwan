@@ -184,7 +184,20 @@ footer p {
   header h3 {
     font-size: 12px;
   }
-  section {
-    grid-template-columns: 1fr 1fr 1fr;
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  footer {
+    padding: 75px;
+  }
+  footer section{
+    padding: 25px;
+  }
+  footer p {
+   margin-right: 0;;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
